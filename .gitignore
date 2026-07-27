@@ -1,0 +1,27 @@
+# Dataset files
+data/raw/*
+data/processed/*
+*.zip
+
+# Keep folders in GitHub
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# Model files
+*.pkl
+*.joblib
+
+# MLflow
+mlruns/
